@@ -1,9 +1,9 @@
 # Ex.No:04   FIT ARMA MODEL FOR TIME SERIES
-### Date:26/03/2024
+### Date:
 
-# AIM:
+## AIM:
 To implement ARMA model in python.
-# ALGORITHM:
+## ALGORITHM:
 1. Import necessary libraries.
 2. Set up matplotlib settings for figure size.
 3. Define an ARMA(1,1) process with coefficients ar1 and ma1, and generate a sample of 1000 data points using the ArmaProcess class. Plot the generated time series and set the title and x-axis limits.
@@ -12,7 +12,7 @@ To implement ARMA model in python.
 6. Display the autocorrelation and partial autocorrelation plots for the ARMA(2,2) process using plot_acf and plot_pacf.
 
 
-# PROGRAM:
+## PROGRAM:
 ```
 Developed by: Sai Eswar Kandukuri
 Reg No: 212221240020
@@ -54,23 +54,23 @@ plt.show()
 plot_acf(ARMA_2)
 plot_pacf(ARMA_2)
 ```
-# OUTPUT:
-# SIMULATED ARMA(1,1) PROCESS:
+## OUTPUT:
+### SIMULATED ARMA(1,1) PROCESS:
 ![1](https://github.com/saieswar1607/TSA_EXP4/assets/93427011/636d5d68-b670-475d-b07e-464294a27094)
 
-# Partial Autocorrelation
+### Partial Autocorrelation
 ![2](https://github.com/saieswar1607/TSA_EXP4/assets/93427011/ad64f1ee-d862-4222-a320-ec96aab2288f)
 
-# Autocorrelation
+### Autocorrelation
 ![3](https://github.com/saieswar1607/TSA_EXP4/assets/93427011/c227d441-9892-4264-ac65-ef98ccd01602)
 
-# SIMULATED ARMA(2,2) PROCESS:
+### SIMULATED ARMA(2,2) PROCESS:
 ![4](https://github.com/saieswar1607/TSA_EXP4/assets/93427011/8e158ce3-f23c-4f05-9d6d-a2cd4239a613)
 
-# Partial Autocorrelation
+### Partial Autocorrelation
 ![5](https://github.com/saieswar1607/TSA_EXP4/assets/93427011/c9bcdc00-e991-4992-867c-d907d5c597f4)
 
-# Autocorrelation
+### Autocorrelation
 ![6](https://github.com/saieswar1607/TSA_EXP4/assets/93427011/7094be85-f447-4d6d-9952-91ce3ea6aa24)
 
 # RESULT:
